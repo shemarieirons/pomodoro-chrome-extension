@@ -1,0 +1,19 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "A modern Pomodoro productivity timer with background alarms and system notifications",
+  "version": "2.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage",
+    "offscreen"
+  ]
+}
